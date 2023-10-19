@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d61a1a;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000000;
+    color: #e91818;
+    text-align: center;
+    padding: 20px 0;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c1bbf6;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #da0808;
+}
+th {
+    background-color: #333;
+    color: #ecda13;
+}
+
+/* Estilos Del Menu*/
+/* styles.css */
+
+/* Estilo para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  /* Estilo para el menú */
+  nav {
+    background-color: #444;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos específicos para dispositivos de pantalla pequeña (menos de 600px de ancho) */
+@media (max-width: 600px) {
+    table, th, td {
+        display: block;
+    }
+
+    th, td {
+        width: 100%;
+    }
+}
+
+  

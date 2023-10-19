@@ -1,0 +1,70 @@
+/* Estilo para el fondo del body */
+body {
+  background-color: #000; /* Fondo negro */
+  color: #222; /* Texto color gris oscuro */
+  font-family: Arial, sans-serif; /* Fuente del texto */
+}
+
+/* Estilo para el encabezado */
+header {
+  padding: 20px;
+}
+
+h1.title-hover-ETC {
+  font-size: 36px;
+  color: #fff; /* Texto blanco */
+}
+
+p.lead {
+  font-size: 18px;
+  color: #fff; /* Texto blanco */
+  padding: 10px;
+}
+
+/* Estilo para la navegación */
+.navbar {
+  background-color: #fcc1d4; /* Color de fondo rosa claro */
+  padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* Texto color gris */
+  margin: 0 10px;
+}
+
+/* Estilo para el carrusel de imágenes */
+.carousel {
+  margin-top: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #222; /* Color de las flechas de navegación del carrusel */
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #fcc1d4; /* Color de fondo rosa claro */
+  padding: 10px 0;
+}
+
+footer a {
+  color: #333; /* Texto color gris */
+}
+
+/* Estilo para el contenedor principal */
+.cover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* Estilo para la scrollbar */
+.scrollbar {
+  width: 12px; /* Ancho de la scrollbar */
+}
+
+.force-overflow {
+  overflow-y: scroll; /* Agregar una scrollbar vertical si es necesario */
+}
